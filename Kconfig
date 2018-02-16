@@ -30,3 +30,8 @@ config BAR
 	depends on FOO
 	help
 	  bar.
+
+menuconfig CUSTOM_OPTIONS
+        bool "Custom Options"
+
+source "target/custom/Config.in"    

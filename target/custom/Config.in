@@ -1,0 +1,7 @@
+#
+
+
+config CUSTOM_GIT_LOCALMIRROR
+        string
+        prompt "Local git repository for custom source" if CUSTOM_OPTIONS
+        default "ssh://some.repository" 
